@@ -1,7 +1,8 @@
 html,body {
 	/* set a default font for the whole page */
 	font-family: 'Nunito', sans-serif; 
-	background-color: grey;
+	background-image: url('https://media1.giphy.com/media/3xz2BVxzjZVnGdgGVW/giphy.gif');
+  background-size: cover;
 	padding: 0px;
 	margin: 0px;
 	width: 100%;
@@ -127,7 +128,7 @@ button.active {
 .chat {
   
  
-  max-width: 600px;
+  max-width: 99%;
   position: relative;
   flex:  1;
    /*border: 1px solid lime;*/
@@ -179,18 +180,18 @@ button.active {
 /* TODO: YOU CHANGE THE CHAT STYLE */
 
 /* only bot message in the hauntedHouse */
-.bot-hauntedHouse .chat-row.msg-bot {
-  color: red;
+.bot-homeAlone .chat-row.msg-bot {
+  color: blue;
 }
 
 /* only human message in the hauntedHouse */
-.bot-hauntedHouse .chat-row.msg-human {
+.bot-homeAlone .chat-row.msg-human {
   color: blue;
 }
 
 /* chat holder the hauntedHouse */
-.bot-hauntedHouse .chat-messages {
-   background-color: hsla(100, 0%, 0%, 1);
+.bot-homeAlone .chat-messages {
+   background-color: rgb(180, 11, 11);
 }
 
 
